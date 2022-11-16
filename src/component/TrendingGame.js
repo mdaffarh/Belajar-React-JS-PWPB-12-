@@ -70,7 +70,7 @@ const TrendingGame = () => {
               <div className="bg-dark">
                 <div className="p-2 m-1 text-white">
                   <Card.Title className="text-center">A</Card.Title>
-                  <Card.Text className="text-left">Game kotak-kotak</Card.Text>
+                  <Card.Text className="text-left">Game bikin stress</Card.Text>
                   <Card.Text className="text-left">Last Updated 3 mins ago</Card.Text>
                 </div>
               </div>
