@@ -10,7 +10,7 @@ function App() {
   return (
     <div>
       <div className="myBG">
-        <NavigationBar />
+        <NavigationBar title="eZporr" />
         <Intro />
       </div>
 

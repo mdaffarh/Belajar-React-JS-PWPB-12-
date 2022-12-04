@@ -1,10 +1,10 @@
 import { Navbar, Nav, Container } from "react-bootstrap"
-const NavigationBar = () => {
+const NavigationBar = props => {
   return (
     <div>
       <Navbar variant="dark">
         <Container>
-          <Navbar.Brand href="/">Gameholic</Navbar.Brand>
+          <Navbar.Brand href="/">{props.title}</Navbar.Brand>
           <Nav>
             <Nav.Link href="#trending">TRENDING GAME</Nav.Link>
             <Nav.Link href="#best">BEST GAME</Nav.Link>
